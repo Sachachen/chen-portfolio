@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Antoine Chen | Devellopeur web</title>
+  </head>
+
+  <!-- @media screen and (max-width: 720px) {
+    /*changes reflects on screen with a width of 720px and below*/
+  }
+   -->
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>ANTOINE CHEN PORTFOLIO</h1>
+        <ul class="navigation">
+          <li><a href="#" class="nav-link">Accueil</a></li>
+          <li><a href="#about" class="nav-link">Profil</a></li>
+          <li><a href="#skills" class="nav-link">Compétences</a></li>
+          <li><a href="#projects" class="nav-link">Projets</a></li>
+          <li><a href="#veille" class="nav-link">Veille</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="antoine-chen"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">A Propos De Moi</h2>
+        <p class="bio-text">
+          Je me présente Antoine Chen, je suis âgé de 19 ans. Je suis actuellement étudiant à Paris au campus Charles de Foucauld, en deuxième année de BTS « SIO spécialité SLAM » Services Informatiques aux Organisations spécialité en Solutions logicielles et Applications Métiers.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2></h2>
+      <p>
+        Depuis mes jeunes années, j’ai toujours été attiré par l’informatique et les nouvelles technologies. C’est tout naturellement que je me suis tourné vers ces études, en effectuant mes trois années d’études en BAC GENERAL « Spécialité Math et Physique », et mes deux années d’études en BTS Services Informatiques aux Organisations spécialité en Solutions logicielles et Applications Métiers.
+      </p>
+    </section>
+
+    <!-- Skills section --> 
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Mes Compétences</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt="html"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt="css"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt="javascript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          src="assets/icons/icons8-php.svg"
+          alt="php"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-java.svg"
+          alt="java"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-mysql.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-laravel.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Mes Récents Projets</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/festival.png"
+            alt="Festival"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Festival</h3>
+          <p class="project-details">
+            Site web d'un groupe musique 
+          </p>
+          <a href="https://github.com/NamsYes/FestivalGE" target="_blank" class="project-link">code</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Salon_de_coiffure.png"
+            alt="salondecoiffure"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Salon de coiffure</h3>
+          <p class="project-details">
+            Site web pour un salon de coiffure
+          </p>
+          <a href="https://platinium-paris.fr/?fbclid=IwAR1xImKpzrTEajEo-G6wGKJmm-JZ7pcbsJru-AnxUpVmW7AOvxTs-vWCOXQ" target="_blank" class="project-link">site</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/greenyEarth.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Personnel</h3>
+          <p class="project-details">
+            Gestion des admins, des employés des ligues
+          </p>
+          <a href="https://github.com/Sachachen/AP-personnel" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+   <!-- Veille -->
+   <section class="Veille" id="Veille">
+      <h3>Veille technologiques</h3>
+          <h2>Définition</h2>
+            <p>
+              La veille technologique consiste à s’informer en continu sur les nouveautés du secteur informatique, les inventions des concurrents ainsi que les nouvelles technologies et ce dans le but d’être le meilleur dans son domaine.
+              <br><br>
+              La veille technologique repose sur 4 étapes :
+            </p>
+            <ul>
+              <li>Déterminer les objectifs</li>
+              <li>Collecter les informations</li>
+              <li>Traiter les informations</li>
+              <li>Partager les résultats de la veille</li>
+            </ul>
+            <h2>Thème Choisi</h2>
+              <p>
+                Le thème que j’ai choisi est les outils de développement collaboratifs. Cet outil de nos jours est essentiel voir obligatoire il est présent dans les SSII pour faciliter le développement des projets.
+                <br><br>
+                Ces outils sont très utilisés car ils comportent énormément d’avantage dont la faite que le projet est accessible par tout aujourd’hui nous faisons face une crise sanitaire le COVID-19 qui nous oblige de nous confiner à certains moments donc avec ces outils le télétravail n’est pas une barrière.
+                <br><br>
+                Ci-dessous il y’a un article dans lequel vous trouverez les avantages des outils collaboratifs de déplacement.
+              </p>
+              <button><a href="https://www.mbdconsulting.ch/publications/les-outils-collaboratifs-un-atout-dans-la-transformation-des-entreprises">Lire l'article</a></button>
+   </section>
+  
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Pour me contacter</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Nom</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Entrer Votre Nom"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Entrer Votre Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Entrer Votre Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.facebook.com/profile.php?id=100014507979960" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Facebook"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/antoinechen0" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/antoine-chen-1192b9232" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Sachachen" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" 
+        alt="Github" 
+        class="socicon"
+      /></a>
+      <a href="CV_CHEN_Antoine.pdf" target="_blank"
+        ><img
+          src="assets/icons/icons8-cv.png"
+          alt="cv"
+          loading="lazy"
+          class="socicon"
+      /></a>
+
+    <!-- Footer section -->
+    <!-- <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://www.linkedin.com/in/antoine-chen-1192b9232" target="_blank"
+          >Antoine Chen</a
+        >
+      </p>
+    </footer> -->
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="assets/icons/icons8-upward-arrow.gif"
+      class="socicon up-arrow"
+      alt="scroll-up"
+    /></i>
+  
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
