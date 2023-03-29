@@ -96,16 +96,12 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 68.75rem;
-  margin-top: -4rem;
   flex-direction: column;
-  gap: 0;
-  
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 30rem;
+  height: 30rem;
+  width: 15rem;
 }
 
 .bio {
@@ -131,10 +127,10 @@ nav ul li {
   padding: 1rem 3.5rem;
 }
 
-.more-about h2 {
+/* .more-about h2 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
-}
+} */
 
 .more-about p {
   line-height: var(--line-height);
@@ -143,10 +139,10 @@ nav ul li {
 }
 
 .Veille {
-  max-width: 68.75rem;
-  margin: auto;
+  background-color: var(--bg-color);
+  margin-top: 2rem;
+  padding: 1rem 3.5rem;
   text-align: center;
-  margin-top: 2.5rem;
 }
 
 .Veille h2 {
@@ -155,14 +151,26 @@ nav ul li {
 }
 
 .Veille p {
-  margin-bottom: var(--bottom-margin);
+  line-height: var(--line-height);
+  padding: 0.4rem;
   text-align: justify;
 }
 
 .Veille ul {
   list-style-type: circle;
   text-align: justify;
+  padding: 0.9rem;
 } 
+
+.Veille button {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 10px;
+  margin: 10px;
+}
+
+
 
 .skills {
   max-width: 68.75rem;
@@ -192,6 +200,13 @@ nav ul li {
   margin: 10px;
 }
 
+.projects {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
 .project-pic {
   width: 65%;
   height: 60%;
@@ -201,7 +216,7 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: line;
 }
 
 .projects-title {
